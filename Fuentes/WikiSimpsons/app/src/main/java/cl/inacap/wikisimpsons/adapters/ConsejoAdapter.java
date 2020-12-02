@@ -38,7 +38,7 @@ public class ConsejoAdapter extends ArrayAdapter<Consejo> {
         nombreTxt.setText(consejos.get(position).getCharacter());
         consejoTxt.setText(consejos.get(position).getQuote());
         Picasso.get().load(this.consejos.get(position).getImage())
-                .resize(300, 300)
+                .resize(360, 640)
                 .centerCrop()
                 .into(imagePer);
         return rowView;

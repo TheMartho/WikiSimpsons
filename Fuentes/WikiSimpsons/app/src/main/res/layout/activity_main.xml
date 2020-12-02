@@ -17,12 +17,14 @@
         android:text="Seleccione Cantidad de Consejos"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="20dp"
         android:layout_height="wrap_content"></TextView>
 
     <Spinner
         android:id="@+id/cantidad_sp"
+        android:background="@color/purple_500"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -33,7 +35,7 @@
         android:id="@+id/solicitar_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@color/purple_500"
         android:text="@string/btn_texto"
         android:textColor="@color/black">
 

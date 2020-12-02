@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
                         Consejo c = new Consejo();
                         c.setCharacter(consultaApi.getString("character"));
-                        c.setQuote(consultaApi.getString("quote"));
+                        c.setQuote("\""+consultaApi.getString("quote")+"\"");
                         c.setImage(consultaApi.getString("image"));
                         consejos.add(c);
 
